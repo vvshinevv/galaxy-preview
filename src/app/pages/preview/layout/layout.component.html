@@ -1,12 +1,15 @@
 <!-- Header area -->
-<header id="header">
-  <div style="position: absolute; width: 100%; height: 100%; z-index: 0;">
-    <video src="../../../../assets/images/bg_video.mp4" autoplay width="100%" height="100%"></video>
+<header id="header" style="background-color: black;">
+  <div style="position: absolute; width: 100%; height: 100%;">
+    <video #bgVideo muted autoplay height="100%" width="100%" style="object-fit:cover;">
+      <source src="../../../../assets/images/bg_video.mp4" type="video/mp4" />
+      <source src="../../../../assets/images/bg_video.webm" type="video/webm" />
+    </video>
   </div>
-  <div class="center text-center">
+  <!-- <div class="center text-center">
     <h1 class="bigheadline">Dark Joe</h1>
     <h4 class="subheadline">The Worst Front End Developer</h4>
-  </div>
+  </div> -->
   <div class="bottom">
     <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
   </div>
@@ -17,8 +20,8 @@
     <div class="row">
       <div class="col-xs-6">
         <div class="logo"><a data-scroll href="#body" class="logo-text">
-          <img src="../../../../assets/images/logo.png" width="100%"/>
-        </a></div>
+            <img src="../../../../assets/images/logo.png" width="100%" />
+          </a></div>
       </div>
       <div class="col-xs-6">
         <div class="nav">
