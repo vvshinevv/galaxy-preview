@@ -12,9 +12,8 @@ export class LayoutComponent implements OnInit {
 
   ngOnInit() {
     this.bgVideoElement.nativeElement.muted = true;
+    this.bgVideoElement.nativeElement.loop = true;
     this.bgVideoElement.nativeElement.play();
-    
-
   }
 
 }
