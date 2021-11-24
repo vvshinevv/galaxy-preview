@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #e66f69;
+	color: white;
 	transition: 0.4s ease all;
 	outline: none;
 }
@@ -75,7 +75,7 @@ a:hover,a:active,a:focus{
 .block_title:before,.block_title:after {
     content: "";
     background: #ccc;
-    display: inline-block;
+    /* display: inline-block; */
     height: 1px;
     position: relative;
     width: 42%;
@@ -170,10 +170,11 @@ header{
     padding-top: 10px;
 }
 .dropdown-menu {
+	background-color: black;
     min-width: 240px;
     right: 0;
     left: auto;
-    border: 1px solid #000;
+    border: 1px solid white;
     box-shadow: none;
     border-radius: 0px;
     margin-top: 5px;
@@ -204,7 +205,7 @@ header{
 	
 	border-bottom: 8px solid white;
 	float: right;
-	margin-top: -5%;
+	margin-top: -6%;
 	margin-right: 23px;
 }
 
@@ -397,6 +398,22 @@ header{
 
 #testimonial {
     background: url(../images/galaxy_bh.jpg);
+    padding: 80px 0px 80px 0px;
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#testimonial-1 {
+    background: url(../images/earth_persona.png) center no-repeat;
+    padding: 80px 0px 80px 0px;
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#testimonial-2 {
+    background: url(../images/saeul_bh.png) center no-repeat;
     padding: 80px 0px 80px 0px;
     color: #fff;
     background-attachment: fixed;
