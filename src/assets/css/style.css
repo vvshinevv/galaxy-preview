@@ -660,6 +660,33 @@ footer {
 		background-attachment: fixed;
 		background-position: 50% -50px;
 	}
+
+	#testimonial {
+		background: url(../images/galaxy_bh.jpg);
+		background-color: black;
+		color: #fff;
+		background-size: cover;
+	}
+	
+	#testimonial-1 {
+		background: url(../images/earth_persona.png) center no-repeat;
+		background-color: black;
+		color: #fff;
+		background-size: cover;
+	}
+	
+	#testimonial-2 {
+		background: url(../images/saeul_bh.png) center no-repeat;
+		background-color: black;
+		color: #fff;
+		background-size: cover;
+	}
+
+	.service-area {
+		background: url(../images/galaxy_bh.jpg) no-repeat;
+		padding: 150px 0px 150px 0px;
+		background-color: black;
+	}
 }
 
 @media all and (max-width: 768px) {
