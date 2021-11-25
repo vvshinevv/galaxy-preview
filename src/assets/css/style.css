@@ -683,7 +683,7 @@ footer {
 	}
 
 	.service-area {
-		background: url(../images/galaxy_bh.jpg) no-repeat;
+		background: url(../images/galaxy_bh.jpg);
 		padding: 150px 0px 150px 0px;
 		background-color: black;
 	}
