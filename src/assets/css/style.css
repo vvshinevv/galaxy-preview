@@ -417,22 +417,22 @@ header{
     background: url(../images/earth_persona.png) center no-repeat;
     padding: 150px 0px 150px 0px;
     color: #fff;
-    background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 #testimonial-2 {
     background: url(../images/saeul_bh.png) center no-repeat;
     padding: 150px 0px 150px 0px;
     color: #fff;
-    background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
+	background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .testimonila-block {
