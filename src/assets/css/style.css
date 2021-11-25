@@ -730,6 +730,43 @@ footer {
 		letter-spacing: -1px;
 	}
 }
+
+@media all and (max-width: 480px) {
+
+	.scrollDown {
+	    top: 70%;
+	    left: 44%;
+	}
+
+	.testimonila-block img {
+		max-width: 350px;
+		max-height: 200px;
+		margin-bottom: 30px;
+	}
+
+	.block_title {
+		font-size: 40px;
+		font-weight: bold;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 70px;
+	}
+
+	.testimonila-block strong {
+		font-size: 20px;
+	}
+
+	b, strong {
+		font-weight: bolder;
+	}
+	
+	.testimonila-block p {
+		font-size: 15px;
+		line-height: 1.5;
+		letter-spacing: -1px;
+	}	
+}
+
 @media all and (max-width: 380px) {
 
 
@@ -756,46 +793,37 @@ footer {
 	    height: 30px;
 	}
 
-	.testimonila-block img {
-		max-width: 250px;
-		max-height: 200px;
-		margin-bottom: 30px;
-	}
-
-	.testimonila-block p {
-		font-size: 19px;
-		line-height: 1.5;
-		letter-spacing:-1px;
-	}
-	
-	.block_title {
-		font-size: 25px;
-		font-weight: bold;
-		text-align: center;
-		overflow: hidden;
-		margin-bottom: 70px;
-	}
-
-	.testimonila-block strong {
-		font-size: 20px;
-	}
-
-	b, strong {
-		font-weight: lighter;
-	}
-}
-
-@media all and (max-width: 480px) {
-
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
 	}
 
+	.testimonila-block img {
+		max-width: 300px;
+		max-height: 200px;
+		margin-bottom: 30px;
+	}
+
+	.block_title {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 60px;
+	}
+
+	.testimonila-block strong {
+		font-size: 25px;
+	}
+
+	b, strong {
+		font-weight: lighter;
+	}
+	
 	.testimonila-block p {
-		font-size: 13px;
+		font-size: 18px;
 		line-height: 1.5;
-		letter-spacing: -1px;
+		letter-spacing:-1px;
 	}
 }
 
@@ -806,9 +834,36 @@ footer {
 	    left: 44%;
 	}
 
+	.scrollDown {
+	    top: 70%;
+	    left: 44%;
+	}
+
+	.testimonila-block img {
+		max-width: 200px;
+		max-height: 200px;
+		margin-bottom: 30px;
+	}
+
+	.block_title {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 70px;
+	}
+
+	.testimonila-block strong {
+		font-size: 17px;
+	}
+
+	b, strong {
+		font-weight: bolder;
+	}
+	
 	.testimonila-block p {
-		font-size: 11px;
+		font-size: 12px;
 		line-height: 1.5;
-		letter-spacing: -1px;
+		letter-spacing:-1px;
 	}
 }
