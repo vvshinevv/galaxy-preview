@@ -227,10 +227,7 @@ header{
 	background: url(../images/galaxy_bh.jpg) no-repeat;
     padding: 150px 0px 150px 0px;
 	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
+	background-color: black;
 }
 
 .service-wrap {
@@ -404,35 +401,27 @@ header{
 
 #testimonial {
     background: url(../images/galaxy_bh.jpg);
+	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
     background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
     background-size: cover;
 }
 
 #testimonial-1 {
     background: url(../images/earth_persona.png) center no-repeat;
+	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
     background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
 }
 
 #testimonial-2 {
     background: url(../images/saeul_bh.png) center no-repeat;
+	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
 	background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
 }
 
 .testimonila-block {
