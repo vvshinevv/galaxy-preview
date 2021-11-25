@@ -36,11 +36,11 @@ html, body {
 }
 
 body {
-	font-family: 'GALAXY_eng'
+	font-family: 'rixrak-sans-pro', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
 	color: white;
-	font-family: 'GALAXY_eng'
+	font-family: 'rixrak-sans-pro', sans-serif;
 }
 a {
 	color: white;
@@ -241,6 +241,7 @@ header{
     text-align: center;
     display: block;
     border-radius: 50%;
+	backdrop-filter: blur(10px);
 }
 .service-wrap i {
     margin-top: 75px;
@@ -448,8 +449,9 @@ header{
     max-width: 60%;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 18px;
+	line-height: 1.8;
 }
 .testimonila-block strong {
     font-size: 2em;
