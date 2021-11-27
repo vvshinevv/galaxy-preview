@@ -779,6 +779,14 @@ footer {
 		line-height: 1.5;
 		letter-spacing: -1px;
 	}	
+
+	#testimonial-1 {
+		background-size: 70em;
+	}
+
+	#testimonial-2 {
+		background-size: 80em;
+	}
 }
 
 @media all and (max-width: 380px) {
@@ -835,9 +843,16 @@ footer {
 	}
 	
 	.testimonila-block p {
-		font-size: 18px;
+		font-size: 15px;
 		line-height: 1.5;
-		letter-spacing:-1px;
+		letter-spacing:-1.8px;
+	}
+	#testimonial-1 {
+		background-size: 70em;
+	}
+
+	#testimonial-2 {
+		background-size: 80em;
 	}
 }
 
@@ -879,5 +894,13 @@ footer {
 		font-size: 11px;
 		line-height: 1.5;
 		letter-spacing:-1.4px;
+	}
+
+	#testimonial-1 {
+		background-size: 60em;
+	}
+
+	#testimonial-2 {
+		background-size: 80em;
 	}
 }
