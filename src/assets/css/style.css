@@ -30,6 +30,16 @@ Text Domain: darkjoe
 /* ///////////////////////////////////////////////////////////////////// 
 //  01 - Universal
 /////////////////////////////////////////////////////////////////////*/
+@font-face {
+	font-family: 'Galaxy_eng';
+	src:url('../font_icon/fonts/GALAXY_eng.eot?-2irksn');
+	src:url('../font_icon/fonts/GALAXY_eng.eot?#iefix-2irksn') format('embedded-opentype'),
+		url('../font_icon/fonts/GALAXY_eng.woff?-2irksn') format('woff'),
+		url('../font_icon/fonts/GALAXY_eng.ttf?-2irksn') format('truetype'),
+		url('../font_icon/fonts/GALAXY_eng.svg?-2irksn#Galaxy_eng') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 html, body {
     height:100%;
@@ -66,11 +76,15 @@ a:hover,a:active,a:focus{
     color: #000;
 }
 .block_title {
-    font-size: 4em;
+	font-family: 'Galaxy_eng';
+    font-size: 3.5em;
     font-weight: 300;
     text-align: center;
     overflow: hidden;
     margin-bottom: 70px;
+	letter-spacing: -4;
+	color: #dcdcdc;
+	text-shadow: 1px 1px 5px black;
 }
 .block_title:before,.block_title:after {
     content: "";
@@ -434,11 +448,11 @@ header{
     margin-bottom: 30px;
 }
 .testimonila-block p {
-    max-width: 60%;
+    /* max-width: 60%; */
     margin: 0 auto;
     margin-bottom: 20px;
     /* font-style: italic; */
-    font-size: 18px;
+    font-size: 15px;
 	line-height: 1.8;
 }
 .testimonila-block strong {
@@ -745,7 +759,7 @@ footer {
 	}
 
 	.block_title {
-		font-size: 40px;
+		font-size: 30px;
 		font-weight: bold;
 		text-align: center;
 		overflow: hidden;
@@ -753,7 +767,7 @@ footer {
 	}
 
 	.testimonila-block strong {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	b, strong {
@@ -805,7 +819,7 @@ footer {
 	}
 
 	.block_title {
-		font-size: 35px;
+		font-size: 25px;
 		font-weight: bold;
 		text-align: center;
 		overflow: hidden;
@@ -813,7 +827,7 @@ footer {
 	}
 
 	.testimonila-block strong {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	b, strong {
@@ -846,7 +860,7 @@ footer {
 	}
 
 	.block_title {
-		font-size: 25px;
+		font-size: 22px;
 		font-weight: bold;
 		text-align: center;
 		overflow: hidden;
@@ -854,7 +868,7 @@ footer {
 	}
 
 	.testimonila-block strong {
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	b, strong {
@@ -862,8 +876,8 @@ footer {
 	}
 	
 	.testimonila-block p {
-		font-size: 12px;
+		font-size: 11px;
 		line-height: 1.5;
-		letter-spacing:-1px;
+		letter-spacing:-1.4px;
 	}
 }
