@@ -110,9 +110,9 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	/* background: url(../images/bg.jpg) no-repeat; */
+	background: url(../images/main_bg.png) no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-position: 50% -50px;
 }
 .center {
@@ -150,7 +150,7 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #navigation{
-	background: black;
+	/* background: black; */
 }
 .nav-wrap {
 	position: fixed;
@@ -239,7 +239,7 @@ header{
 .service-area {
 	background: url(../images/galaxy_bh.jpg) no-repeat;
     padding: 150px 0px 150px 0px;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-color: black;
 }
 
@@ -413,11 +413,11 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
-    background: url(../images/galaxy_bh.jpg);
+    background: url(../images/brogram.png);
 	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -426,7 +426,7 @@ header{
 	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
-    background-attachment: fixed;       
+    /* background-attachment: fixed;        */
 }
 
 #testimonial-2 {
@@ -434,7 +434,7 @@ header{
 	background-color: black;
     padding: 150px 0px 150px 0px;
     color: #fff;
-	background-attachment: fixed;       
+	/* background-attachment: fixed;        */
 }
 
 .testimonila-block {
@@ -443,8 +443,8 @@ header{
 .testimonila-block img {
     /* border-radius: 50%; */
     /* border: 1px solid #000; */
-    /* max-width: 300px; */
-    max-height: 200px;
+    max-width: 100%;
+    /* max-height: 200px; */
     margin-bottom: 30px;
 }
 .testimonila-block p {
@@ -617,6 +617,10 @@ footer {
 
 
 @media all and (min-width: 1400px) {
+	.container {
+		width: 1024px;
+	}
+
 	.centered p {
 		font-size: 3em;
 	}
@@ -668,14 +672,14 @@ footer {
 @media all and (max-width: 991px) {
 
 	header{
-		background: url(../images/bg-small.jpg) no-repeat;
+		background: url(../images/main_bg.png) no-repeat;
 		background-size: cover;
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 		background-position: 50% -50px;
 	}
 
 	#testimonial {
-		background: url(../images/galaxy_bh.jpg);
+		background: url(../images/brogram.png);
 		background-color: black;
 		color: #fff;
 		background-size: cover;
@@ -743,6 +747,11 @@ footer {
 		line-height: 1.5;
 		letter-spacing: -1px;
 	}
+	.testimonila-block img {
+		max-width: 100%;
+		/* max-height: 200px; */
+		margin-bottom: 30px;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -753,8 +762,8 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 350px;
-		max-height: 200px;
+		max-width: 400px;
+		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
 
@@ -821,8 +830,8 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 300px;
-		max-height: 200px;
+		max-width: 350px;
+		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
 
@@ -869,8 +878,8 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 200px;
-		max-height: 200px;
+		max-width: 260px;
+		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
 
@@ -902,5 +911,8 @@ footer {
 
 	#testimonial-2 {
 		background-size: 80em;
+	}
+	.logo {
+		width: 120%;
 	}
 }

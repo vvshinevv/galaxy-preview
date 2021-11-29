@@ -137,12 +137,12 @@ jQuery(function () {
 
 function scroll() {
   if (jQuery(window).scrollTop() >= origOffsetY) {
-    jQuery('#navigation').addClass('nav-wrap');
-    jQuery('#services').addClass('exp');
+    // jQuery('#navigation').addClass('nav-wrap');
+    // jQuery('#services').addClass('exp');
     //$('.content').addClass('menu-padding');
   } else {
-    jQuery('#navigation').removeClass('nav-wrap');
-    jQuery('#services').removeClass('exp');
+    // jQuery('#navigation').removeClass('nav-wrap');
+    // jQuery('#services').removeClass('exp');
     //$('.content').removeClass('menu-padding');
   }
 }

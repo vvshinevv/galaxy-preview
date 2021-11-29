@@ -1,26 +1,9 @@
-<!-- Header area -->
-<header id="header" style="background-color: black;">
-  <div style="position: absolute; width: 100%; height: 100%;">
-    <video #bgVideo muted autoplay height="100%" width="100%" style="object-fit:cover;">
-      <source src="../../../../assets/images/bg_video.mp4" type="video/mp4" />
-      <source src="../../../../assets/images/bg_video.webm" type="video/webm" />
-    </video>
-  </div>
-  <!-- <div class="center text-center">
-    <h1 class="bigheadline">Dark Joe</h1>
-    <h4 class="subheadline">The Worst Front End Developer</h4>
-  </div> -->
-  <div class="bottom">
-    <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
-  </div>
-</header>
-<!-- Navigation area -->
-<section id="navigation">
+<section id="navigation" class="nav-wrap">
   <div class="container">
     <div class="row">
       <div class="col-xs-6">
         <div class="logo"><a data-scroll href="#body" class="logo-text">
-            <img src="../../../../assets/images/logo.png" width="100%" />
+            <img src="../../../../assets/images/logo.png" />
           </a></div>
       </div>
       <div class="col-xs-6">
@@ -42,16 +25,33 @@
     </div>
   </div>
 </section>
+<!-- Header area -->
+<header id="header" style="background-color: black;">
+  <!-- <div style="position: absolute; width: 100%; height: 100%;">
+    <video #bgVideo muted autoplay height="100%" width="100%" style="object-fit:cover;">
+      <source src="../../../../assets/images/bg_video.mp4" type="video/mp4" />
+      <source src="../../../../assets/images/bg_video.webm" type="video/webm" />
+    </video>
+  </div> -->
+  <!-- <div class="center text-center">
+    <h1 class="bigheadline">Dark Joe</h1>
+    <h4 class="subheadline">The Worst Front End Developer</h4>
+  </div> -->
+  <div class="bottom">
+    <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+  </div>
+</header>
+<!-- Navigation area -->
 <router-outlet></router-outlet>
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <p class="copyright">© Copyright 2021 <a href="#" target="_blank">CALAXYCORP.</a></p>
+      <div class="col-sm-12">
+        <p class="copyright" style="text-align: center;">© Copyright 2021 <a href="#" target="_blank">CALAXYCORP.</a></p>
       </div>
-      <div class="col-sm-6">
+      <!-- <div class="col-sm-6"> -->
         <!-- <p class="designed">Theme by <a href="http://themewagon.com" target="_blank">Themewagon</a></p> -->
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </footer>
