@@ -419,6 +419,7 @@ header{
     color: #fff;
     /* background-attachment: fixed; */
     background-size: cover;
+	background-position: center;
 }
 
 #testimonial-1 {
@@ -617,6 +618,7 @@ footer {
 
 
 @media all and (min-width: 1400px) {
+
 	.container {
 		width: 1024px;
 	}
@@ -633,6 +635,23 @@ footer {
 }
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
+
+	header{
+		background: url(../images/main_bg_m.png) no-repeat;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		background-position: center;
+	}
+
+	#testimonial {
+		background: url(../images/brogram.png);
+		background-color: black;
+		padding: 150px 0px 150px 0px;
+		color: #fff;
+		/* background-attachment: fixed; */
+		background-size: 160%;
+		background-position: center;
+	}
 
 	.services {
 		max-width: 293px;
@@ -653,6 +672,13 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
+	header{
+		background: url(../images/main_bg_m.png) no-repeat;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		background-position: center;
+	}
+
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -672,17 +698,18 @@ footer {
 @media all and (max-width: 991px) {
 
 	header{
-		background: url(../images/main_bg.png) no-repeat;
+		background: url(../images/main_bg_m.png) no-repeat;
 		background-size: cover;
 		/* background-attachment: fixed; */
 		background-position: 50% -50px;
 	}
 
 	#testimonial {
-		background: url(../images/brogram.png);
+		background: url(../images/brogram.png) no-repeat;
 		background-color: black;
+		background-position: center;
 		color: #fff;
-		background-size: cover;
+		background-size: 160%;
 	}
 	
 	#testimonial-1 {
@@ -707,6 +734,12 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+	header{
+		background: url(../images/main_bg_m.png) no-repeat;
+		background-size: cover;
+		/* background-attachment: fixed; */
+		background-position: center;
+	}
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -762,13 +795,13 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 400px;
+		max-width: 100%;
 		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
 
 	.block_title {
-		font-size: 30px;
+		font-size: 28px;
 		font-weight: bold;
 		text-align: center;
 		overflow: hidden;
@@ -799,7 +832,12 @@ footer {
 }
 
 @media all and (max-width: 380px) {
-
+	header{
+		background: url(../images/main_bg_m.png) no-repeat;
+		background-size: 115%;
+		/* background-attachment: fixed; */
+		background-position: 50% -5px;
+	}
 
 	.logo-text {
 	    font-size: 2em;
@@ -830,7 +868,7 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 350px;
+		max-width: 100%;
 		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
@@ -878,7 +916,7 @@ footer {
 	}
 
 	.testimonila-block img {
-		max-width: 260px;
+		max-width: 100%;
 		/* max-height: 200px; */
 		margin-bottom: 30px;
 	}
