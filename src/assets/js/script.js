@@ -43,6 +43,7 @@ jQuery(function () {
   ///////////////////////////////
 
   function centerHomeBannerText() {
+    // var bannerText = jQuery('#header > .center');
     var bannerText = jQuery('#header > .center');
     var bannerTextTop = (jQuery('#header').actual('height') / 2) - (jQuery('#header > .center').actual('height') / 2) - 40;
     bannerText.css('padding-top', bannerTextTop + 'px');
