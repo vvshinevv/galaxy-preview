@@ -140,6 +140,16 @@ header{
     bottom: 10%;
     left: 49%;
 }
+.saeul {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -50%;
+    margin: auto;
+    width: 30%;
+    height: 0;
+}
 .scrollDown:hover{
 	color: rgba(255, 255, 255, 0.4);
 	transition: 0.4s ease all;
@@ -705,6 +715,20 @@ footer {
 		background-position: 50% -50px;
 	}
 
+	.scrollDown {
+		left: 46%;
+	}
+
+	.saeul {
+	    top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: -50%;
+    	margin: auto;
+    	width: 50%;
+    	height: 0;
+	}
+
 	#testimonial {
 		background: url(../images/brogram.png) no-repeat;
 		background-color: black;
@@ -776,6 +800,15 @@ footer {
 	    top: 70%;
 	    left: 46%;
 	}
+	.saeul {
+	    top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: -25%;
+    	margin: auto;
+    	width: 50%;
+    	height: 0;
+	}
 	.testimonila-block p {
 		font-size: 15px;
 		line-height: 1.5;
@@ -793,6 +826,15 @@ footer {
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
+	}
+	.saeul {
+		top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: -25%;
+    	margin: auto;
+    	width: 60%;
+    	height: 0;
 	}
 
 	.testimonila-block img {
@@ -867,6 +909,15 @@ footer {
 	    top: 70%;
 	    left: 44%;
 	}
+	.saeul {
+		top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: -25%;
+    	margin: auto;
+    	width: 50%;
+    	height: 0;
+	}
 
 	.testimonila-block img {
 		max-width: 100%;
@@ -910,10 +961,14 @@ footer {
 	    top: 70%;
 	    left: 44%;
 	}
-
-	.scrollDown {
-	    top: 70%;
-	    left: 44%;
+	.saeul {
+		top: 0;
+    	left: 8%;
+    	right: 0;
+    	bottom: -25%;
+    	margin: auto;
+    /* width: 0; */
+    	height: 0;
 	}
 
 	.testimonila-block img {
